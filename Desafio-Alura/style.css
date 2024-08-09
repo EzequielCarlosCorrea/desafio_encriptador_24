@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+  --fonte-primaria:"Krona One", sans-serif;
+  --fonte-secundaria: "Montserrat", sans-serif;
+}
+
+
+
+body{
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);;
+}
+    
+
+
+header{
+    justify-content: space-between;
+    
+    
+}
+
+.img_cacador{
+    
+width: 336px;
+height: 304px;
+top: 283px;
+left: 1032px;
+gap: 10px;
+opacity: 0px;
+
+
+}
+
+.cabecalho{
+    padding: 3% 0% 0% 15%;
+  }
+  
+  .logo{
+    margin: 8%;
+    width: 20%;
+   
+ 
+    }
+
+
+    main{
+        display: flex;
+        margin-bottom: 50px;
+        margin-left: 80px;
+      }
+   
+
+
+
+h6{
+    margin-left: 10px ;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--fonte-primaria);
+}
+
+
+.text-area{
+    display: flex;
+    border: none;
+    margin-top: 90px;
+    text-transform: lowercase;    
+    font-family: var(--fonte-primaria);
+}
+
+::placeholder{color: #0a3871;}
+.text-area:focus{
+    outline: none;
+    font-size: 20px;
+}
+
+/*botões*/
+.botoes{
+    display: flex;
+    margin-top: 18px;
+    
+}
+
+.btn-encriptar{
+    
+    width: 150px;
+    padding: 5px;
+    margin: 0.25rem ;
+    background: #f7f6bc;
+    color: rgb(228, 112, 59);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-desencriptar{
+    
+    width: 150px;
+    padding: 5px;
+    background: #f7f6bc;
+    margin: 0.25rem ;
+    color: rgb(228, 112, 59);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-copiar{
+
+    width: 150px;
+    padding: 5px;
+    margin: 0.25rem;
+    background: #79b7db;
+    color: rgb(228, 112, 59);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+/*mensagem*/
+.text-area-mensagem{
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    margin-left: 98px;
+    margin-top: 150px;
+    padding-left: 20px;
+
+}
+
+
+
+/*rodape*/
+
+
+
+
